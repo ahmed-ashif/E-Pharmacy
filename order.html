@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+    <link rel="stylesheet" type="text/css" href="css/order.css">
+</head>
+<body>
+
+<div class="main">
+    <div class="register">
+        <h2>Delivery Address</h2>
+        <form action="php_code.php" id="register" method="post">
+
+            <label>Full Name: </label>
+            <br>
+            <input type="text" name="fname"
+                   id="name" placeholder="Enter your name">
+            <br><br>
+
+            <label>Address: </label>
+            <br>
+
+            <input type="text" name="address"
+                   id="name" placeholder="Enter your Address">
+            <br><br>
+
+            <label>Mobile Number: </label>
+            <br>
+            <input type="number" name="mobile"
+                   id="name" placeholder="Enter your mobile number">
+            <br><br>
+
+            <label>PIN Code: </label>
+            <br>
+            <input type="number" name="pin"
+                   id="name" placeholder="Enter your PIN Code">
+            <br><br>
+
+            <label>Email: </label>
+            <br>
+            <input type="text" name="email"
+                   id="name" placeholder="Enter your valid email address">
+            <br><br>
+
+            <center><BUTTON type="submit"  name="submit" onclick="validation();" style="border-radius:10px;">Submit</BUTTON></center>
+
+        </form>
+    </div>
+</div>
+
+</body>
+</html>
